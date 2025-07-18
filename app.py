@@ -4,8 +4,9 @@ import os
 from dotenv import load_dotenv
 
 # Load API key
-load_dotenv()
-api_key = os.getenv("TOGETHER_API_KEY")
+
+api_key = st.secrets["TOGETHER_API_KEY"]
+
 
 # Together AI client
 client = OpenAI(
