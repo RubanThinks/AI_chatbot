@@ -12,7 +12,7 @@ client = OpenAI(
 )
 
 def chat_with_bot():
-    print("🤖 AI Chatbot (type 'exit' to quit)\n")
+    print("Llama 3 Chatbot (type 'exit' to quit)\n")
 
     messages = [
         {"role": "system", "content": "You are a helpful AI assistant."}
