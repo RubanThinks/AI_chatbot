@@ -15,7 +15,7 @@ client = OpenAI(
 )
 
 # Streamlit UI settings
-st.set_page_config(page_title="🤖 AI Chatbot", page_icon="💬", layout="wide")
+st.set_page_config(page_title="⚡AI-Chatbot", page_icon="🤖", layout="wide")
 
 st.markdown(
     """
